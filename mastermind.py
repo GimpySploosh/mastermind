@@ -94,7 +94,7 @@ while True:
           tempKey += ["W"]
 
     tempKey.sort()
-    print(code, tempKey, key)
+    #print(code, tempKey, key)
     if tempKey == key:
       nextComb.append(code)
   allComb = nextComb
